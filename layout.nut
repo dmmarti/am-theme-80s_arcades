@@ -165,16 +165,6 @@ textemu.align = Align.Left;
 textemu.rotation = 0;
 textemu.word_wrap = true;
 
-// Static media style
-{
-local boxartstatic = fe.add_artwork("boxart", flx*0.66, fly*0.74, flw*0.19, flh*0.2 );
-boxartstatic.preserve_aspect_ratio = true;
-}
-
-{
-local cartartstatic = fe.add_artwork("cartart", flx*0.8, fly*0.77, flw*0.15, flh*0.15 );
-cartartstatic.preserve_aspect_ratio = true;
-}
 
 //category icons 
 
